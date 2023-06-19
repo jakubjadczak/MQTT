@@ -1,0 +1,10 @@
+// For format details, see https://aka.ms/devcontainer.json
+{
+  "name": "My devcontainer",
+  // Add the IDs of extensions you want installed when the container is created.
+
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [1883, 9001]
+}

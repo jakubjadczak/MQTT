@@ -1,0 +1,65 @@
+{
+    "PCC": {
+        "Topics": {
+            "pcc/sensors/scaled/inside-temperature": "float",
+            "pcc/sensors/gps/lat": "float",
+            "pcc/sensors/gps/lon": "float"
+        },
+        "ip": "localhost",
+        "port": 1883,
+        "frequency": 1
+    },
+    "LPB": {
+        "Topics": {
+            "lpb/sensors/raw/tm2": "int",
+            "lpb/sensors/raw/pt2": "int",
+            "lpb/sensors/raw/pt1": "int",
+            "lpb/sensors/raw/tm1": "int",
+            "lpb/sensors/scaled/tm2": "float",
+            "lpb/sensors/scaled/pt2": "float",
+            "lpb/sensors/scaled/pt1": "float",
+            "lpb/sensors/scaled/tm1": "float",
+            "lpb/sensors/frontend-avg/tm2": "float",
+            "lpb/sensors/frontend-avg/pt2": "float",
+            "lpb/sensors/frontend-avg/pt1": "float",
+            "lpb/sensors/frontend-avg/tm1": "float",
+            "lpb/sensors/raw/pt5": "int",
+            "lpb/sensors/raw/pt6": "int",
+            "lpb/sensors/raw/pt4": "int",
+            "lpb/sensors/raw/pt3": "int",
+            "lpb/sensors/scaled/pt5": "float",
+            "lpb/sensors/scaled/pt6": "float",
+            "lpb/sensors/scaled/pt4": "float",
+            "lpb/sensors/scaled/pt3": "float",
+            "lpb/sensors/frontend-avg/pt5": "float",
+            "lpb/sensors/frontend-avg/pt6": "float",
+            "lpb/sensors/frontend-avg/pt4": "float",
+            "lpb/sensors/frontend-avg/pt3": "float",
+            "lpb/sensors/scaled/inside-temperature": "float",
+            "lpb/calculated/mass-flow-rate": "float",
+            "lpb/local/switches_status": "json",
+            "lpb/switches/switchboard-1/ack": "int[0:512]",
+            "lpb/switches/switchboard-2/ack": "int[0:512]"
+        },
+        "ip": "localhost",
+        "port": 1883,
+        "frequency": 1
+
+    },
+    "COMPANION": {
+        "Topics": {
+            "companion/sensors/raw/oxidizer-pressure": "int",
+            "companion/sensors/raw/battery-voltage": "int",
+            "companion/sensors/scaled/oxidizer-pressure":  "float",
+            "companion/sensors/scaled/battery-voltage": "float",
+            "companion/sensors/scaled/inside-temperature": "float",
+            "companion/sensors/frontend-avg/oxidizer-pressure": "json",
+            "companion/switches/relief-open-time": "float",
+            "companion/switches/switchboard-1/ack": "int[0:512]",
+            "companion/switches/switchboard-2/ack": "int[0:512]"
+        },
+        "ip": "localhost",
+        "port": 1883,
+        "frequency": 1
+    }
+}
